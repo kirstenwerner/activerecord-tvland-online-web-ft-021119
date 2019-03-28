@@ -1,5 +1,5 @@
 class AddColumnToCharacters < ActiveRecord::Migration[4.2]
   def change
-    add_column
+    add_column :characters, :catchphrase, :string 
   end 
 end 
